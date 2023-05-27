@@ -1,0 +1,62 @@
+@use 'variables'
+.header-top
+    padding: .9rem 2rem
+    nav
+        max-width: variables.$max-width
+        width: 100%
+        margin: 0 auto
+        display: flex
+        justify-content: space-between
+        align-items: center
+        .navLinks
+            display: flex
+            align-items: center
+            gap: 4rem
+
+            .block-one, .block-two
+                display: flex
+                align-items: center
+                gap: 1.2rem
+
+.header-top
+    a, li
+        font-size: 1.4rem
+
+
+.dropdwon
+    position: relative
+    ul
+        position: absolute
+        top: 103%
+        padding: 0.4rem .7rem
+        border: 1px solid #111
+        display: none
+    &:hover
+        ul
+            display: block
+
+#formSearchTop
+    width: 400px
+    height: 26px
+    padding: 0 .9rem
+    border: 1px solid #111
+    input
+        border: none
+        &::placeholder
+            font-size: 1.2rem
+        &::focus
+            #formSearchTop
+                border: 1px solid #f7d204
+            
+
+
+.containerbutton
+    margin-top: 2rem
+    display: flex
+    gap: 1.6rem
+
+.btn
+    font-size: 1.4rem
+    font-weight: bold
+    border: 1px solid #111
+    padding: .6rem 1.2rem
