@@ -13,7 +13,7 @@ const Header = () => {
         <ul className='navLinks'>
           <div className='block-one'>
             <li> <Link href={"/"}>Home</Link> </li>
-            <li> <Link href={"/bouks"}>Livros</Link> </li>
+            <li> <Link href={"/books"}>Livros</Link> </li>
             <li className='dropdwon'> Categorias 
               <ul>
                 <li> <Link href={"/bouks"}>Romances</Link> </li>
